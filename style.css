@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;  
 }
+
+.quadrados{
+    width: 100vw;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quadrados div{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    box-shadow: 4px 4px 4px black;
+}
